@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img
+                    src="data:image/png;base64,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">
+            </div>
+            <li><a class="active" href="#insights">Insights</a></li>
+            <li><a href="#service">service</a></li>
+            <li><a href="#industries">Industry</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#about">About Accenture</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <div class="column">
+            <h1>Future Systems Insights</h1>
+            <br>
+            <p class="para1">How can you realize the full value of your enterprise technology investments?</p>
+        </div>
+        <div class="column">
+            <img src="image-1.png" alt="Accenture Future" style="width:100%">
+        </div>
+    </div>
+    <div class="MainBox">
+        <div class="box">
+            <div class="leftbox">
+                <h2>What It Is</h2>
+                <p>Future Systems are boundaryless, adaptable and radically human enterprise systems capable
+                    of scaling innovations repeatedly and making organizations strategically agile</p>
+
+            </div>
+            <div class="middlebox">
+                <h2>Why It Matters</h2>
+                <p>Companies today are investing a lot of money in technology. But most aren’t realizing all the
+                    benefits
+                    they could be. A few tech Leaders, however, have closed the gap and are achieving double the revenue
+                    growth.</p>
+            </div>
+            <div class="rightbox">
+                <h2>Where It's Going</h2>
+                <p>In the next three to five years, companies will need to adopt technology strategically and
+                    deliberately
+                    while reinvesting more often—or risk forgoing significant revenue growth.</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="ima2">
+                <img src="image-2.png" style="width:100%">
+            </div>
+            <div class="text2">
+                <br>
+                <br>
+                <h2>Content Spotlight</h2>
+                <br>
+    
+                <div class="t2">
+                    <p>Assignment</p>
+                    <br>
+                    <h3>Make the leap, take the lead</h3>
+                    <br>
+                    <p>The report explores how business can adjust their tech stratergies to accelerate digital
+                        transformation, extend innovation and strength their revenue growth.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="text3">
+                <br>
+                <br>
+                <h2>Content Spotlight</h2>
+                <br>
+                <br>
+                <div class="t3">
+                    <p>Assignment</p>
+                    <br>
+                    <h3>CEO Guide-value of Tech Investments</h3>
+                    <br>
+                    <p>Exploring how leading ceo's are gaining the full value at the leading-edge technology era.</p>
+                </div>
+            </div>
+            <div class="ima3">
+                <img src="image-3.jpg" alt="Accenture Future" style="width:100%">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="toppane">
+            <h3 class="top-head">Tech is everywhere -- value isn't </h3>
+            <p class="top-para">When you compare tech adoption rates of company who invest in future systems to those
+                who won't, the
+                growing innovations achievement gap becomes clear
+            </p>
+        </div>
+        <div class="middlepane">
+            <div class="m1">
+                <br>
+                <h3 class="m1-head">What is cloud native?</h3>
+                <p>
+                    Deliver now value and innovation from your cloud strategy by leavinf the "lift and shift" model
+                    behind.
+                </p>
+                <br>
+                <hr class="m1-hr">
+            </div>
+            <div class="m2">
+                <br>
+                <h3>5 ways to get full value from your tech</h3>
+                <p>
+                    We've cracked the code on strategic use of enterprice technology .Learn how to innovate like a
+                    leader.
+                </p>
+                <br>
+                <hr class="m2-hr">
+            </div>
+            <div class="m3">
+                <h3>Reimagining guest experiences on the high seas</h3>
+                <p>
+                    Carnival's integrated guest platform and wearable OceanMedalion personalize the experience for
+                    everyone
+                    on board.
+                </p>
+                <div class="image4">
+                    <img class="i4" src="image-4.png" alt="Accenture Future" width="400px" height="300px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="toppane2">
+            <h3 class="top-head2">Overcoming organizational friction </h3>
+            <p class="top-para2">Leaders break down warriers to upsklill their workforce at scale and innovate with
+                partner ecosystems
+            </p>
+        </div>
+        <div class="middlepane2">
+            <div class="m12">
+                <br>
+                <h3 class="m1-head2">Transformation survial kit</h3>
+                <p>
+                    Learn the most common landmines and lynchpins to success that companies experience along their
+                    transformation journeys.
+                </p>
+                <br>
+                <hr class="m1-hr2">
+            </div>
+            <div class="m22">
+                <br>
+                <h3>Unlock the full potential of your workforce</h3>
+                <p>
+                    Learn how companies can use Future Systems to adopt new skilling initiatives and channel an evolving
+                    workforce.
+                </p>
+                <br>
+                <hr class="m2-hr2">
+            </div>
+            <div class="m32">
+                <h3>An MVP-caliber fan experience</h3>
+                <p>A rich partner ecosystem helps The Golden State Warriors get the most out of their innovation
+                    investments.
+                </p>
+                <div class="image5">
+                    <img class="i5" src="image-5.png" alt="Accenture Future" width="400px" height="300px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box4">
+        <div class="text4">
+            <br>
+            <br>
+            <h2>Content Spotlight</h2>
+            <br>
+            <br>
+            <div class="t4">
+                <p>Future Systems</p>
+                <br>
+                <h3>Full value. Full stop.</h3>
+                <br>
+                <p>Leaders who invest in future-ready enterprise systems with a deliberate technology strategy will
+                    increase revenue 2X faster than those who don't. Read the full report.</p>
+            </div>
+        </div>
+        <div class="ima4">
+            <img src="image-6.jpg" alt="Accenture Future" style="width:100%">
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
