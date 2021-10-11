@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Graphik Regular", Arial, sans-serif;
 }
 
 .navbar {
@@ -9,6 +10,10 @@
   position: sticky;
   top: 0;
   cursor: pointer;
+
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-color: grey;
 }
 
 .background {
@@ -67,45 +72,52 @@
   position: relative;
   background-color: #f3f1f5;
   top: -90px;
+  height: 1000px;
 }
-.leftbox,
-.middlebox {
+
+.box1 {
   position: relative;
   float: left;
   width: 25%;
-  height: 320px;
   padding-left: 55px;
+  height: 220px;
+  left: 50px;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-color: grey;
 }
-.leftbox p,
-.middlebox p,
-.rightbox p {
+
+.box1 p {
   position: relative;
   width: 75%;
   padding: 40px;
-  left: 50px;
+  left: 30px;
 }
-.rightbox {
-  position: relative;
-  float: right;
-  width: 25%;
-  height: 320px;
-  padding-left: 35px;
-}
-.box h2 {
+
+.box1 h2 {
   position: relative;
   top: 10px;
-  left: 50px;
+  left: 10px;
   font-size: 30px;
   padding-left: 40px;
 }
 .box2 {
   position: relative;
   display: flex;
-  left: -620px;
-  bottom: -150px;
+  bottom: -200px;
+  left: -320px;
+}
+.ima2 {
+  position: relative;
+  display: inline-block;
+  left: -500px;
+  bottom: -100px;
+  top: 120px;
 }
 .text2 {
+  position: relative;
   padding: 40px;
+  left: -330px;
 }
 .t2 {
   display: inline-block;
@@ -113,23 +125,21 @@
   padding: 40px;
   width: 600px;
   background-color: white;
-  height: 120px;
+  height: 150px;
+  left: -300px;
 }
 .t2 p {
   width: 60%;
+  float: right;
 }
-.ima2 {
-  position: relative;
-  display: inline-block;
-  left: 200px;
-  bottom: 30px;
-  width: 20%;
-  height: 150px;
-}
+
 .text2 h2 {
   font-size: 30px;
+  position: relative;
+  left: -300px;
 }
 .t2 h3 {
+  position: relative;
   font-size: 20px;
   font-weight: bold;
 }
@@ -138,7 +148,7 @@
   position: relative;
   display: flex;
   left: 120px;
-  bottom: -100px;
+  bottom: -200px;
 }
 .text3 {
   padding: 40px;
@@ -172,7 +182,7 @@
   background-color: #f3f1f5;
   display: inline-block;
   position: relative;
-  top: -50px;
+  top: -150px;
 }
 .toppane {
   display: inline-block;
@@ -352,4 +362,158 @@
 .t4 h3 {
   font-size: 20px;
   font-weight: bold;
+}
+.box5 {
+  top: -1000px;
+  left: 50px;
+  position: relative;
+  width: 1300px;
+  margin: 50px 0px 0px 0px;
+  padding: 0px 5px;
+  align-items: center;
+  background-color: white;
+}
+.box5 ul {
+  display: flex;
+  list-style: none;
+  margin-left: 50px;
+}
+.box5 h1 {
+  font-size: 35px;
+  margin-left: 90px;
+  padding-top: 10px;
+}
+.box5 ul li {
+  display: inline-table;
+  margin: 0px 50px 0px 50px;
+}
+.box5 ul li:first-child {
+  border: gray solid 1px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 35px;
+}
+
+.box5 ul li:nth-child(2) {
+  border: gray solid 1px;
+  padding: 10px 20px 10px 10px;
+  margin-right: 35px;
+}
+.box5 ul li:last-child {
+  border: gray solid 1px;
+  padding: 10px 10px 10px 10px;
+}
+.ima8 {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: -50px -25px 0px 0px;
+}
+.image8 {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: -50px -35px 0px 0px;
+}
+.box6 {
+  position: relative;
+  top: -1000px;
+  color: white;
+  width: 83%;
+  padding-bottom: 20px;
+  background-image: linear-gradient(
+    to right,
+    #a100ff,
+    #8425d0,
+    #692ea1,
+    #512f74,
+    #3a2c48
+  );
+}
+.box6 h3 {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 40px;
+  padding-top: 25px;
+  padding-left: 130px;
+}
+
+.box6-p {
+  font-weight: 900;
+  padding-left: 130px;
+  width: 70%;
+  padding-bottom: 30px;
+  margin-top: -20px;
+}
+.subscribe-button {
+  color: black;
+  font-size: 8px;
+  font-weight: bold;
+  background-color: white;
+  padding: 5px 50px 5px 5px;
+  margin-right: 900px;
+  margin-left: 470px;
+}
+.box7 {
+  position: relative;
+  top: -1000px;
+  background-color: black;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: white solid;
+}
+.companylogo {
+  height: 50px;
+  width: 40px;
+  margin-left: 125px;
+  padding-right: 30px;
+}
+.box7-a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  margin: 0px 90px 0px 0px;
+}
+.box8 {
+  position: relative;
+  top: -1000px;
+  background-color: black;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: white solid;
+}
+.box8-a {
+  color: white;
+  font-size: 10px;
+  margin: 0px 15px 0px 0px;
+}
+.box8-i {
+  position: relative;
+  top: -1000px;
+  color: white;
+  font-size: 10px;
+  margin: 0px 15px 0px 0px;
+  padding-left: 125px;
+}
+.box9 {
+  position: relative;
+  top: -1000px;
+  background-color: transparent;
+  color: white;
+  float: right;
+  margin-top: -40px;
+  padding-right: 30px;
+  font-size: 10px;
+}
+.box10 {
+  background-color: transparent;
+  position: relative;
+  top: -1000px;
+  width: 33%;
+  float: right;
+}
+.lastlogo {
+  height: 140px;
+  width: 225px;
+  float: right;
+  margin-top: -250px;
 }
